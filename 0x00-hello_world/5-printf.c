@@ -1,4 +1,4 @@
-nclude <stdio.h>
+nclude < stdio.h >
 
 /**
  * main -prints the phrase with proper grammar,
