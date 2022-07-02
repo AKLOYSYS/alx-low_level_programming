@@ -3,54 +3,50 @@
 #include <time.h>
 
 #include <stdio.h>
+
+
+
 /**
  *
- *  *main - assign a random number to the variable n each time it is executed
+ *  * main - Prints a random number and states whether
  *
- *   *and prints out based on condition
+ *   * it is positive, negative, or zero.
  *
  *    *
  *
- *     *Return: Always 0 (Success)
+ *     * Return: Always 0.
  *
  *      */
+
 int main(void)
 
 {
 
-	        int n;
+int n;
 
 
 
-		        srand(time(0));
+srand(time(0));
 
-			        n = rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 
-				        if (n > 0)
+/* your code goes there */
 
-						        {
+if (n > 0)
 
-								        printf("%d is %s\n", n, "positive");
+printf("%d is positive\n", n);
 
-									        }
+else if (n < 0)
 
-					        else if (n < 0)
+printf("%d is negative\n", n);
 
-							        {
+else
 
-									        printf("%d is %s\n", n, "negative");
+printf("%d is zero\n", n);
 
-										        }
 
-						        else
 
-								        {
-
-										        printf("%d is %s\n", n, "zero");
-
-											        }
-
-							        return (0);
+return (0);
 
 }
 
