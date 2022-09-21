@@ -19,7 +19,6 @@ void print_number(int n)
 	{
 		m = n;
 	}
-
 	d = m;
 	count = 1;
 
@@ -34,3 +33,5 @@ void print_number(int n)
 		_putchar(((m / count) % 10) + 48);
 	}
 }
+
+
