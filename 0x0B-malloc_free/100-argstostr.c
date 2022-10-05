@@ -5,6 +5,7 @@
  *@str: string counted
  *Return: returns the length
  */
+
 int len(char *str)
 {
 	int len = 0
@@ -44,7 +45,7 @@ char *argstostr(int ac, char **av)
 				new_string[j + temp] = av[k][j];
 			new_string[temp + j] = '\n';
 			temp += (j + 1);
-			K++;
+			k++;
 		}
 		new_string[temp] = '\0';
 	}
