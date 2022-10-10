@@ -1,0 +1,1 @@
+Project on structure typedef
