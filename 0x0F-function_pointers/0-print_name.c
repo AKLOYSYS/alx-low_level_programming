@@ -5,7 +5,7 @@
  * print_name - prints a name.
  * @name: pointer to name.
  * @f: function pointer.
- * Return: void/
+ * Return: void
  */
 
 void print_name(cahr *name, void (*f)(char *))
